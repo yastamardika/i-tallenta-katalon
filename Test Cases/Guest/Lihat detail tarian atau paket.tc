@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melihat detail tarian atau paket</description>
+   <name>Lihat detail tarian atau paket</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b87a4bd-c2be-46a9-b6cc-6d734c8deeaa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Membuka halaman jelajah</description>
+   <name>Buka halaman explore</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0523346-887e-4a69-9667-d7669420e181</testCaseGuid>
+</TestCaseEntity>

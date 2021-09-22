@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan login untuk customer</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d796910-e7b3-40f8-8500-f410a37266a2</testCaseGuid>
+</TestCaseEntity>

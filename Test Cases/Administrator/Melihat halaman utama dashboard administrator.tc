@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Melihat halaman utama dashboard administrator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1b15fa8-10a3-42a9-855f-2b144012af03</testCaseGuid>
+</TestCaseEntity>

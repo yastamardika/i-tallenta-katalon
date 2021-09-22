@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan pemesanan tarian</description>
+   <name>Buka form pesan tarian sanggar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd6af5c4-fdd7-4b52-938f-f87899d002f9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Membuka halaman faq dan cek isi</description>
+   <name>Buka Halaman FAQ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1efab3ff-30fa-473d-9f73-1fd38ad8bc1d</testCaseGuid>
+</TestCaseEntity>
