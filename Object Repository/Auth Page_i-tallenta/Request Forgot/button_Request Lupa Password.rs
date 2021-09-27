@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Register</name>
+   <name>button_Request Lupa Password</name>
    <tag></tag>
-   <elementGuidId>bea01e03-045c-4073-bfe6-2d5b8f129e75</elementGuidId>
+   <elementGuidId>aa92f88f-80f8-4614-bb2d-d9739c7745c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='__BVID__26']/ul/li[2]/a</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.btn.btn-block.btn-primary.btn-lg.font-weight-medium</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,35 +21,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/register</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-item</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>menuitem</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>target</name>
-      <type>Main</type>
-      <value>_self</value>
+      <value>btn btn-block btn-primary btn-lg font-weight-medium</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Register
+                Request Lupa Password
               </value>
    </webElementProperties>
    <webElementProperties>
@@ -65,41 +51,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__26&quot;)/ul[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/li[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <value>id(&quot;main-content-landing&quot;)/section[@class=&quot;login&quot;]/div[@class=&quot;wrapper d-flex align-items-center auth login-full-bg pt-5&quot;]/div[@class=&quot;row w-100 pt-5&quot;]/div[@class=&quot;col-lg-6 mx-auto&quot;]/div[@class=&quot;auth-form-light text-left p-5&quot;]/form[1]/div[@class=&quot;mt-5&quot;]/button[@class=&quot;btn btn-block btn-primary btn-lg font-weight-medium&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='__BVID__26']/ul/li[2]/a</value>
+      <value>//div[@id='main-content-landing']/section/div/div/div/div/form/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bergabung Menjadi Mitra'])[1]/following::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohon isi form dibawah ini untuk reset kata sandi anda'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/register')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[2]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Request Lupa Password']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

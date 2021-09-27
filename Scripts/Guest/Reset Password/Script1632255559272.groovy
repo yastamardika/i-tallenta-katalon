@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://i-tallenta.vercel.app/users/password-reset')
+
+WebUI.setText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_New Password_updatePassword'), '')
+
+WebUI.setText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_New Password Confirmation_updatePassword'), '')
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/Reset Pass/button_Reset Password'))
+

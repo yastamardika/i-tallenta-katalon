@@ -27,5 +27,7 @@ WebUI.click(findTestObject('Object Repository/Detail Page/a_Jelajah'))
 
 WebUI.delay(5)
 
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'halaman_explore.png')
+
 WebUI.closeBrowser()
 

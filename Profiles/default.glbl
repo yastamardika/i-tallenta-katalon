@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>lokasi direktori</description>
+      <initValue>'E:\\\\Tugas Akhir Diploma 3/hasil pengujian/'</initValue>
+      <name>SDirectory</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

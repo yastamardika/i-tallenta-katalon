@@ -15,6 +15,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
@@ -23,9 +25,22 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://i-tallenta.vercel.app/')
 
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Home Page_i-tallenta/h2_Cara Baru Pesan Sanggar'), 0)
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Home Page_i-tallenta/div_3 Sanggar terbaru yang bergabung dengan I-Tallenta                 Jelajahi Sanggar'), 
+    0)
+
+WebUI.delay(2)
+
 WebUI.scrollToElement(findTestObject('Home Page_i-tallenta/footer_Copyright, 2021 I-Tallenta          _c954aa'), 0)
 
-WebUI.delay(3)
+WebUI.delay(2)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'halaman_utama_hasil.png')
 
 WebUI.closeBrowser()
 

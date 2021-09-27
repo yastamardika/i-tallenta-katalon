@@ -35,5 +35,7 @@ WebUI.click(findTestObject('Object Repository/Detail Page/button_Tutup'))
 
 WebUI.delay(3)
 
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'halaman_detail_sanggar.png')
+
 WebUI.closeBrowser()
 

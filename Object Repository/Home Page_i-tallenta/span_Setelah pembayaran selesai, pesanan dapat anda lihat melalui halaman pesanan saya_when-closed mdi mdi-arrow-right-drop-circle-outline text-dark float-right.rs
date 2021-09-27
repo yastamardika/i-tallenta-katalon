@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Setelah pembayaran selesai, pesanan dapat anda lihat melalui halaman pesanan saya_when-closed mdi mdi-arrow-right-drop-circle-outline text-dark float-right</name>
+   <tag></tag>
+   <elementGuidId>d599ce4d-f73f-44bc-b723-ba6ad8e7f5ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-landing']/div/div/div/div[2]/div[2]/div/div[3]/header/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>when-closed mdi mdi-arrow-right-drop-circle-outline text-dark float-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-landing&quot;)/div[@class=&quot;mt-lg-5 mt-0 pt-2 pt-lg-5 about&quot;]/div[@class=&quot;d-md-block d-sm-block d-lg-flex h-100 container&quot;]/div[@class=&quot;row justify-content-center align-self-center pt-0 pt-lg-0 pt-sm-5 shadow-sm rounded card&quot;]/div[@class=&quot;mt-sm-5 align-middle pt-0 pt-lg-0 pt-sm-5 p-5 col-auto&quot;]/div[@class=&quot;row d-block&quot;]/div[@class=&quot;accordion p-3 p-md-2 m-lg-5 m-0 m-md-2 bg-white shadow-sm rounded&quot;]/div[@class=&quot;card border-bottom&quot;]/header[@class=&quot;card-header p-lg-3 p-md-2 p-0 bg-white d-lg-block d-sm-flex justify-content-between align-items-center collapsed&quot;]/span[@class=&quot;when-closed mdi mdi-arrow-right-drop-circle-outline text-dark float-right&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-landing']/div/div/div/div[2]/div[2]/div/div[3]/header/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/header/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

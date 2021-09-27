@@ -36,5 +36,7 @@ WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/bu
 
 WebUI.verifyTextPresent('Success', false)
 
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_login.png')
+
 WebUI.delay(3)
 

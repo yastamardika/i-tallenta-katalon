@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://i-tallenta.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/a_Login (1)'))
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/a_Lupa password anda'))
+
+WebUI.setText(findTestObject('Auth Page_i-tallenta/Request Forgot/input_Email_uid'), '')
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/button_Request Lupa Password'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('')
+
