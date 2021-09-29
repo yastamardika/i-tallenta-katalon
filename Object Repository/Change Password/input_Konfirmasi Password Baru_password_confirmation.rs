@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_uid</name>
+   <name>input_Konfirmasi Password Baru_password_confirmation</name>
    <tag></tag>
-   <elementGuidId>5514fe58-4604-4081-9bc7-07332062139c</elementGuidId>
+   <elementGuidId>12b7f258-706c-4701-943f-728149564e5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#InputEmail</value>
+         <key>XPATH</key>
+         <value>//input[@id='confirmation-password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='InputEmail']</value>
+         <key>CSS</key>
+         <value>#confirmation-password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,28 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>InputEmail</value>
+      <value>confirmation-password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>uid</value>
+      <value>password_confirmation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Input Your Email Here</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,41 +63,48 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control</value>
+      <value>form-control is-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>emailHelp</value>
+      <value>password-help-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;InputEmail&quot;)</value>
+      <value>id(&quot;confirmation-password&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='InputEmail']</value>
+      <value>//input[@id='confirmation-password']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-landing']/section/div/div/div/div/form/div/input</value>
+      <value>//fieldset[@id='__BVID__219']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//fieldset/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

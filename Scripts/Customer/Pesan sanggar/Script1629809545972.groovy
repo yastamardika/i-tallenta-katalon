@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Guest/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Buka detail sanggar - Order'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Customer/Buka detail sanggar - Order'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

@@ -29,11 +29,27 @@ WebUI.click(findTestObject('Auth Page_i-tallenta/svg_Bergabung Menjadi Mitra_bi-
 
 WebUI.click(findTestObject('Auth Page_i-tallenta/a_Register'))
 
-WebUI.setText(findTestObject('Auth Page_i-tallenta/input_Email_email'), 'rat')
+WebUI.setText(findTestObject('Auth Page_i-tallenta/input_Email_email'), 'rudityacandra@mail.ugm.ac.id')
 
-WebUI.setText(findTestObject('Auth Page_i-tallenta/input_Username_username'), 'asd')
+WebUI.setText(findTestObject('Auth Page_i-tallenta/input_Username_username'), 'rudii')
 
-WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Password_password'), 'weOX2uVXnPI=')
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Password_password'), 'OgbrUcIZsoQToGN7Jc/4FA==')
 
-WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Konfirmasi Password_password_confirmation'), 'weOX2uVXnPI=')
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Konfirmasi Password_password_confirmation'), 'OgbrUcIZsoQToGN7Jc/4FA==')
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register_pass_validation.png')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Password_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register_confirm_pass_val.png')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/input_Konfirmasi Password_password_confirmation'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register_ready.png')
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/Register Page/button_Register'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register_submit.png')
+
+WebUI.closeBrowser()
 

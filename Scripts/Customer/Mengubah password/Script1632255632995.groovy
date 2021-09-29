@@ -17,3 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+
+WebUI.click(findTestObject('Profile Navbar/a_Profil'))
+
+WebUI.click(findTestObject('Change Password/a_Ubah Password'))
+
+WebUI.click(findTestObject('Change Password/button_Ubah Password'))
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Lama_old-password'), 'cVN1MKHDK0c=')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Baru_password'), 'i3qmFh1miHY=')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Konfirmasi Password Baru_password_confirmation'), 'OgbrUcIZsoQToGN7Jc/4FA==')
+
+WebUI.click(findTestObject('Change Password/button_Ubah'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_pass-baru-tak-valid.png')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Baru_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.click(findTestObject('Change Password/button_Ubah'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_kombinasi-salah.png')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Konfirmasi Password Baru_password_confirmation'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.click(findTestObject('Change Password/button_Ubah'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_pass-lama-salah.png')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Lama_old-password'), 'OgbrUcIZsoQToGN7Jc/4FA==')
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_berhasil.png')
+
+WebUI.closeBrowser()
+

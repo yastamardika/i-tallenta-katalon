@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+
+WebUI.click(findTestObject('Profile Navbar/a_Profil'))
+
+WebUI.click(findTestObject('Profile Page/button_edit'))
+
+WebUI.click(findTestObject('Profile Page/button_cancel'))
+
+WebUI.scrollToElement(findTestObject('Profile Page/div_Copyright, 2021 I-Tallenta               License               Terms               Privacy'), 
+    0)
+
+WebUI.closeBrowser()
+

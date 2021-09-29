@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_uid</name>
+   <name>input_Kota Acara_KotaPemesan</name>
    <tag></tag>
-   <elementGuidId>5514fe58-4604-4081-9bc7-07332062139c</elementGuidId>
+   <elementGuidId>36553863-5bca-4b44-b879-6042a54f3852</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#InputEmail</value>
+         <key>XPATH</key>
+         <value>//input[@id='KotaPemesan']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='InputEmail']</value>
+         <key>CSS</key>
+         <value>#KotaPemesan</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,28 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>InputEmail</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>uid</value>
+      <value>KotaPemesan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Input Your Email Here</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,41 +56,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>emailHelp</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;InputEmail&quot;)</value>
+      <value>id(&quot;KotaPemesan&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='InputEmail']</value>
+      <value>//input[@id='KotaPemesan']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-landing']/section/div/div/div/div/form/div/input</value>
+      <value>//fieldset[@id='__BVID__68']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[3]/div/fieldset/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

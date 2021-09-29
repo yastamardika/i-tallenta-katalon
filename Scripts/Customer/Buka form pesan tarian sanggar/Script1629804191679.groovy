@@ -17,33 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Guest/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Buka detail sanggar - Order'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Home Page_i-tallenta/a_Jelajah'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Search and Explore Page/img_Bantul_sanggarImage-74'))
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Nama Pemesan___BVID__159'), 'Jon')
+WebUI.click(findTestObject('Order Sanggar Page/p_Tari Sakura                   Rp. 4.000.000                        12 Menit                                      detail'))
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Email Pemesan___BVID__161'), 'jonsnow@gmail.com')
+WebUI.click(findTestObject('Order Sanggar Page/button_Pesan Tarian Ini'))
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Nomor HP Pemesan___BVID__163'), '0882279128371923')
+WebUI.click(findTestObject('Order Sanggar Page/Form order/p_gunakan identitas sesuai akun'))
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Alamat Pemesan___BVID__165'), 'Jl. Durian 15C ')
+WebUI.sendKeys(findTestObject('Order Sanggar Page/Form order/input_Nomor HP Pemesan_nomorHPPemesan'), '0882279128371923')
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Alamat Acara___BVID__167'), 'Jl. Medika 16A')
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Alamat Pemesan_alamatPemesan'), 'Jl. Durian 15C ')
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Lokasi  Nama Acara___BVID__169'), 'Ulang Tahun SV ke-10')
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Alamat Acara_AlamatAcaraPemesan'), 'Jl. Medika 16A')
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Kota Acara___BVID__171'), 'Sleman')
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Lokasi  Nama Acara_LokasiAcaraPemesan'), 'Ulang Tahun SV ke-10')
 
-WebUI.setText(findTestObject('Object Repository/Order Sanggar Page/Form Order/input_Provinsi___BVID__173'), 'Daerah Istimewa Yogyakarta')
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Kota Acara_KotaPemesan'), 'Sleman')
 
-WebUI.click(findTestObject('Object Repository/Order Sanggar Page/Form Order/button_Tanggal acara_example-datepicker'))
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Provinsi_ProvinsiPemesan'), 'Daerah Istimewa Yogyakarta')
 
-WebUI.click(findTestObject('Object Repository/Order Sanggar Page/Form Order/span_3'))
+WebUI.click(findTestObject('Order Sanggar Page/Form order/button_Tanggal acara_TanggalPesan'))
 
-WebUI.check(findTestObject('Object Repository/Order Sanggar Page/Form Order/button_Pesan dan Bayar'))
+WebUI.click(findTestObject('Order Sanggar Page/Form order/span_8'))
 
 WebUI.delay(2)
 

@@ -29,9 +29,17 @@ WebUI.click(findTestObject('Auth Page_i-tallenta/a_Login (1)'))
 
 WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/a_Lupa password anda'))
 
-WebUI.setText(findTestObject('Auth Page_i-tallenta/Request Forgot/input_Email_uid'), '')
+WebUI.setText(findTestObject('Auth Page_i-tallenta/Request Forgot/input_Email_uid'), 'rudityacandra')
 
-WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/button_Request Lupa Password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/button_Request Lupa Password'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_req_wrong.png')
+
+WebUI.setText(findTestObject('Auth Page_i-tallenta/Request Forgot/input_Email_uid'), 'rudityacandra@mail.ugm.ac.id')
+
+WebUI.click(findTestObject('Auth Page_i-tallenta/Request Forgot/button_Request Lupa Password'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_req_forgot_submit.png')
+
+WebUI.closeBrowser()
 

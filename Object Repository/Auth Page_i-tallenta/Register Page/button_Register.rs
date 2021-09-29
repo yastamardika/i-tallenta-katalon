@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Request Lupa Password</name>
+   <name>button_Register</name>
    <tag></tag>
-   <elementGuidId>aa92f88f-80f8-4614-bb2d-d9739c7745c0</elementGuidId>
+   <elementGuidId>8443402a-de09-4974-b0bd-71a65da3a49c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-block.btn-primary.btn-lg.font-weight-medium</value>
+         <value>button.btn.btn.btn-block.bg-primary.btn-primary.btn-lg.font-weight-medium.btn-secondary</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block btn-primary btn-lg font-weight-medium</value>
+      <value>btn btn btn-block bg-primary btn-primary btn-lg font-weight-medium btn-secondary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Request Lupa Password
+                Register
               </value>
    </webElementProperties>
    <webElementProperties>
@@ -51,7 +51,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content-landing&quot;)/section[@class=&quot;login&quot;]/div[@class=&quot;wrapper d-flex align-items-center auth login-full-bg pt-5&quot;]/div[@class=&quot;row w-100 pt-5&quot;]/div[@class=&quot;col-lg-6 mx-auto&quot;]/div[@class=&quot;auth-form-light text-left p-5&quot;]/form[1]/div[@class=&quot;mt-5&quot;]/button[@class=&quot;btn btn-block btn-primary btn-lg font-weight-medium&quot;]</value>
+      <value>id(&quot;main-content-landing&quot;)/section[@class=&quot;register&quot;]/div[@class=&quot;wrapper d-flex justify-content-center align-items-center auth register-full-bg pt-5&quot;]/div[@class=&quot;row w-100 p-lg-5 p-0&quot;]/div[@class=&quot;col-lg-6 mx-auto&quot;]/div[@class=&quot;auth-form-light text-left p-lg-5 p-3 m-lg-5 mt-5 mb-5&quot;]/form[1]/div[@class=&quot;mt-5&quot;]/button[@class=&quot;btn btn btn-block bg-primary btn-primary btn-lg font-weight-medium btn-secondary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,41 +65,34 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-landing']/section/div/div/div/div/form/div[2]/button</value>
+      <value>//div[@id='main-content-landing']/section/div/div/div[2]/div/form/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi password tidak tepat'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohon isi form dibawah ini untuk reset kata sandi anda'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Password'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[2]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Request Lupa Password']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button</value>
+      <value>//form/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

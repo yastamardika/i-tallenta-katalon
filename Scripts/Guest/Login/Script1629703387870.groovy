@@ -27,7 +27,20 @@ WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/sv
 
 WebUI.click(findTestObject('Auth Page_i-tallenta/a_Login (1)'))
 
+WebUI.setText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Email_InputEmail'), 'jonnow@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Password_password (1)'), 
+    'yEDRFum77HzzwJrvLX+eGw==')
+
+WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/button_Login'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_login_no_user_found.png')
+
 WebUI.setText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Email_InputEmail'), 'jonsnow@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/button_Login'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_login_failed_wrong_password.png')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Password_password (1)'), 
     'OgbrUcIZsoQToGN7Jc/4FA==')
@@ -39,4 +52,6 @@ WebUI.verifyTextPresent('Success', false)
 WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_login.png')
 
 WebUI.delay(3)
+
+WebUI.closeBrowser()
 

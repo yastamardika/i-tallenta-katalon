@@ -30,41 +30,32 @@ WebUI.delay(3)
 WebUI.focus(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
+WebUI.sendKeys(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
     'Bantu')
 
+WebUI.sendKeys(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
+    'l')
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Search and Explore Page/h4_Sanggar Tari Saraswati'), 0)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_search_bantul.png')
+
 WebUI.setText(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
-    'Bantul')
+    '')
+
+WebUI.sendKeys(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
+    'Slema')
+
+WebUI.sendKeys(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
+    'n')
 
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Sanggar Tari Saraswati                 _a0cc5b'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Search and Explore Page/h4_Sanggar Tari Kembang Sakura'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Sanggar Tari Saraswati                 _a0cc5b'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
-    'Artha')
-
-WebUI.delay(3)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Artha Dance                  Bantul'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Artha Dance                  Bantul'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/Search and Explore Page/input_Cari dan temukan sanggar yang tepat u_b6d194'), 
-    'Daerah Istimewa')
-
-WebUI.delay(3)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Sanggar Tari Saraswati                 _3c757f'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Search and Explore Page/div_Sanggar Tari Saraswati                 _3c757f'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_search_sleman.png')
 
 WebUI.closeBrowser()
 

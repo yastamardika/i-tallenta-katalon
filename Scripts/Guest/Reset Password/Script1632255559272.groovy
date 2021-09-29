@@ -21,11 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://i-tallenta.vercel.app/users/password-reset')
+WebUI.navigateToUrl('https://i-tallenta.vercel.app/users/password-reset?token=07600bb445593a470fff8a98354cac65fdARlySwlkH1XtVSqUe9AdPjaxcHD8WPksAhtRnJIKw%3D')
 
-WebUI.setText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_New Password_updatePassword'), '')
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Password Baru_password'), 'OgbrUcIZsoTzrsFM1LFGvQ==')
 
-WebUI.setText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_New Password Confirmation_updatePassword'), '')
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Konfirmasi Password Baru_password_confirmation'), 
+    'OgbrUcIZsoS3fy/qvzO3vw==')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Password Baru_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Konfirmasi Password Baru_password_confirmation'), 
+    'OgbrUcIZsoS6MLFyVUXh9A==')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Password Baru_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.setEncryptedText(findTestObject('Auth Page_i-tallenta/Reset Pass/input_Konfirmasi Password Baru_password_confirmation'), 
+    'U+k+KkGNzIbq2mZrBuLWYQ==')
 
 WebUI.click(findTestObject('Auth Page_i-tallenta/Reset Pass/button_Reset Password'))
 
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_reset_pass_fail.png')
+
+WebUI.closeBrowser()

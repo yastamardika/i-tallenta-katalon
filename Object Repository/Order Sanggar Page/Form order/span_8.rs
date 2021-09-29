@@ -1,105 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Request Lupa Password</name>
+   <name>span_8</name>
    <tag></tag>
-   <elementGuidId>aa92f88f-80f8-4614-bb2d-d9739c7745c0</elementGuidId>
+   <elementGuidId>92aedb8b-84b5-4ca4-b039-91f8318dab8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-block.btn-primary.btn-lg.font-weight-medium</value>
+         <key>XPATH</key>
+         <value>//div[@id='__BVID__74__cell-2021-10-08_']/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <key>BASIC</key>
+         <value>//span[@class = 'btn border-0 rounded-circle text-nowrap btn-outline-light text-dark font-weight-bold' and (text() = '8' or . = '8')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__74__cell-2021-10-08_ > span.btn.border-0.rounded-circle.text-nowrap.btn-outline-light.text-dark.font-weight-bold</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block btn-primary btn-lg font-weight-medium</value>
+      <value>btn border-0 rounded-circle text-nowrap btn-outline-light text-dark font-weight-bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                Request Lupa Password
-              </value>
+      <value>8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content-landing&quot;)/section[@class=&quot;login&quot;]/div[@class=&quot;wrapper d-flex align-items-center auth login-full-bg pt-5&quot;]/div[@class=&quot;row w-100 pt-5&quot;]/div[@class=&quot;col-lg-6 mx-auto&quot;]/div[@class=&quot;auth-form-light text-left p-5&quot;]/form[1]/div[@class=&quot;mt-5&quot;]/button[@class=&quot;btn btn-block btn-primary btn-lg font-weight-medium&quot;]</value>
+      <value>id(&quot;__BVID__74__cell-2021-10-08_&quot;)/span[@class=&quot;btn border-0 rounded-circle text-nowrap btn-outline-light text-dark font-weight-bold&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-landing']/section/div/div/div/div/form/div[2]/button</value>
+      <value>//div[@id='__BVID__74__cell-2021-10-08_']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohon isi form dibawah ini untuk reset kata sandi anda'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cursor keys to navigate calendar dates'])[1]/preceding::span[30]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Request Lupa Password']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Date'])[1]/preceding::span[30]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='8']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button</value>
+      <value>//div[2]/div[6]/span</value>
    </webElementXpaths>
 </WebElementEntity>
