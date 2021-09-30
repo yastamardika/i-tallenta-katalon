@@ -1,63 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Pesanan Saya</name>
+   <name>select_Pilih Kota</name>
    <tag></tag>
-   <elementGuidId>93ca010b-2a56-4eb9-9d91-e9f8f38409d8</elementGuidId>
+   <elementGuidId>b2cd9e87-f4c3-4fec-99e7-67b7ad885256</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='__BVID__39']/ul/li[2]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/order' and (text() = '
-                Pesanan Saya
-              ' or . = '
-                Pesanan Saya
-              ')]</value>
+         <value>//select[@id='input-city']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#input-city</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/order</value>
+      <value>input-city</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-item</value>
+      <value>mb-2 custom-select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>type</name>
       <type>Main</type>
-      <value>menuitem</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>_self</value>
+      <value>Masukkan kota sanggar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,56 +71,63 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Pesanan Saya
-              </value>
+                      Pilih Kota
+                    Kabupaten Kulon ProgoKabupaten BantulKabupaten Gunung KidulKabupaten SlemanKota Yogyakarta</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__39&quot;)/ul[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/li[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <value>id(&quot;input-city&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='input-city']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='__BVID__39']/ul/li[2]/a</value>
+      <value>//div[@id='fieldset-1']/div/div/div[2]/select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Sanggar'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bergabung Menjadi Mitra'])[1]/following::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contoh : https://youtu.be/hfkafoqI21EQ'])[1]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat video profil'])[1]/preceding::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you!'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/order')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto lokasi sanggar:'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//select[2]</value>
    </webElementXpaths>
 </WebElementEntity>

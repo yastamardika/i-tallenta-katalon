@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Pesanan Saya</name>
+   <name>a_2</name>
    <tag></tag>
-   <elementGuidId>93ca010b-2a56-4eb9-9d91-e9f8f38409d8</elementGuidId>
+   <elementGuidId>c3c7edcd-241f-46b5-8b39-0408c80ba921</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='__BVID__39']/ul/li[2]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/order' and (text() = '
-                Pesanan Saya
-              ' or . = '
-                Pesanan Saya
-              ')]</value>
+         <value>//div[@id='main-content-landing']/div/div/div/div/div/div/div/nav/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -43,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-item</value>
+      <value>page-link nuxt-link-exact-active nuxt-link-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>menuitem</value>
+      <value>Go to page 2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,57 +56,76 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                Pesanan Saya
-              </value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__39&quot;)/ul[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/li[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <value>id(&quot;main-content-landing&quot;)/div[@class=&quot;root&quot;]/div[@class=&quot;container profile pt-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;profile-content p-lg-2&quot;]/div[1]/div[@class=&quot;profile-content&quot;]/nav[@class=&quot;my-0&quot;]/ul[@class=&quot;pagination b-pagination pagination-sm text-center&quot;]/li[@class=&quot;page-item flex-fill&quot;]/a[@class=&quot;page-link nuxt-link-exact-active nuxt-link-active&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='__BVID__39']/ul/li[2]/a</value>
+      <value>//div[@id='main-content-landing']/div/div/div/div/div/div/div/nav/ul/li[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'2')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⏪'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bergabung Menjadi Mitra'])[1]/following::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⏮'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat video profil'])[1]/preceding::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⏩'])[1]/preceding::a[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='⏭'])[1]/preceding::a[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/order')]</value>
+      <value>(//a[contains(@href, '/order')])[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//li[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

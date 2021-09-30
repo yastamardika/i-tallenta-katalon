@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+
+WebUI.click(findTestObject('Profile Navbar/a_Pesanan Saya'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('History order page/a_2'))
+
+WebUI.click(findTestObject('History order page/a_3'))
+
+WebUI.closeBrowser()
+
