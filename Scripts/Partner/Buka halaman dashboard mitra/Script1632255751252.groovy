@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Partner Dashboard Page/button_Panel Mitra'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Partner Dashboard Page/div_Copyright  2021        I-Tallenta. All rights reserved. Hand-crafted  made with'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'open_partner_dashboard.png')
+
+WebUI.closeBrowser()
+

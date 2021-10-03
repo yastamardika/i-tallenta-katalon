@@ -17,7 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile Navbar/button_Bergabung Menjadi Mitra'))
+
+WebUI.setText(findTestObject('Partner Register Page/input_Nama Sanggar_input-nama-sanggar'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/input_Nomor Handphone Sanggar_input-phone'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-address'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/textarea_Deskripsi Sanggar_textarea-description-sanggar'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/input_Youtube video link_input-video_profile'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-google_map_link'), '')
+
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-postal-code'), '')
+
+WebUI.uploadFile(findTestObject('Partner Register Page/label_No file chosen'), '')
+
+WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih Kota'), '', false)
+
+WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih provinsi'), '', false)
+
+WebUI.click(findTestObject('Partner Register Page/button_Reset'))
 

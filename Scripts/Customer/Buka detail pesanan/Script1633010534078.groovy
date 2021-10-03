@@ -17,24 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
 
-WebUI.navigateToUrl('https://i-tallenta.vercel.app/')
+WebUI.click(findTestObject('Profile Navbar/a_Pesanan Saya'))
 
-WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Auth Page_i-tallenta/a_Login (1)'))
+WebUI.click(findTestObject('Order Detail Page/img_dibayar_rounded'))
 
-WebUI.setText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Email_InputEmail'), 'jonsnow@gmail.com')
+WebUI.waitForElementVisible(findTestObject('Order Detail Page/span_Rp. 5.200.000'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Password_password (1)'), 
-    'OgbrUcIZsoQToGN7Jc/4FA==')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/button_Login'))
+WebUI.scrollToElement(findTestObject('Order Detail Page/div_Copyright, 2021 I-Tallenta               License               Terms               Privacy'), 
+    0)
 
-WebUI.verifyTextPresent('Success', false)
-
-WebUI.delay(3)
+WebUI.closeBrowser()
 

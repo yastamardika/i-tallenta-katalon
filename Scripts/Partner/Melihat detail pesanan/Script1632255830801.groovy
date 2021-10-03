@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Partner Dashboard Page/button_Panel Mitra'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Partner Dashboard Page/span_Sanggar'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/a_Transaksi'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Order/a_Lihat Detail'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

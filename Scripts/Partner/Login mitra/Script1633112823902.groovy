@@ -17,17 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Profile Navbar/a_Pesanan Saya'))
+WebUI.navigateToUrl('https://i-tallenta.vercel.app/')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
 
-WebUI.click(findTestObject('History order page/a_2'))
+WebUI.click(findTestObject('Auth Page_i-tallenta/a_Login (1)'))
 
-WebUI.click(findTestObject('History order page/a_3'))
+WebUI.setText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Email_InputEmail'), 'sanggarkembangsakra@gmail.com')
 
-WebUI.closeBrowser()
+WebUI.setEncryptedText(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/input_Password_password (1)'), 
+    'OgbrUcIZsoQToGN7Jc/4FA==')
+
+WebUI.click(findTestObject('Object Repository/Auth Page_i-tallenta/Login Page/button_Login'))
+
+WebUI.verifyTextPresent('Success', false)
+
+WebUI.delay(3)
 
