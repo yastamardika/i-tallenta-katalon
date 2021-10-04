@@ -6,15 +6,18 @@
    <elementGuidId>a4e90c97-0dfa-49c3-b495-8e7aac685b27</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'action ripple' and (text() = 'Terima' or . = 'Terima')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='pGvZsIe8-']/div/a[2]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +27,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -6,12 +6,20 @@
    <elementGuidId>f32f1f21-a7cc-47ca-9c71-eb4f1f2372d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-block.btn-info.btn-secondary</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = '
+              Ubah Data
+            ' or . = '
+              Ubah Data
+            ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

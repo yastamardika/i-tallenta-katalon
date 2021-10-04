@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Durasi___BVID__486</name>
+   <name>input_Harga_input-edit-harga_tarian</name>
    <tag></tag>
-   <elementGuidId>345f63f1-6c46-4160-874a-fc9a8d3dd56e</elementGuidId>
+   <elementGuidId>10e7175e-c1d6-4a1a-9812-230eccabf318</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='__BVID__486']</value>
+         <value>//input[@id='input-edit-harga_tarian']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#__BVID__486</value>
+         <value>#input-edit-harga_tarian</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,9 +26,23 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukan harga paket</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>tel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>input-edit-harga_tarian</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,50 +54,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>__BVID__486</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__486&quot;)</value>
+      <value>id(&quot;input-edit-harga_tarian&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='__BVID__486']</value>
+      <value>//input[@id='input-edit-harga_tarian']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__485']/div/input</value>
+      <value>//fieldset[@id='__BVID__90']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/fieldset/div/input</value>
+      <value>//div[2]/div/fieldset/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>a.action.ripple</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'action ripple' and (text() = 'Batal' or . = 'Batal')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

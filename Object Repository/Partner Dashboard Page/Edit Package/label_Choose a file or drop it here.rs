@@ -3,11 +3,11 @@
    <description></description>
    <name>label_Choose a file or drop it here</name>
    <tag></tag>
-   <elementGuidId>60050f20-56cc-40be-baaf-502527e4e647</elementGuidId>
+   <elementGuidId>4229ea11-4668-45d1-89d9-8726fc595e9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='file-small__BV_file_outer_']/label</value>
+         <value>//div[@id='input-edit-foto_tarian__BV_file_outer_']/label</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>file-small</value>
+      <value>input-edit-foto_tarian</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;file-small__BV_file_outer_&quot;)/label[@class=&quot;custom-file-label&quot;]</value>
+      <value>id(&quot;input-edit-foto_tarian__BV_file_outer_&quot;)/label[@class=&quot;custom-file-label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='file-small__BV_file_outer_']/label</value>
+      <value>//div[@id='input-edit-foto_tarian__BV_file_outer_']/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

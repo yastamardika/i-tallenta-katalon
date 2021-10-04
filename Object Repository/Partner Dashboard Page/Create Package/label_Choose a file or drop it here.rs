@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='file-small__BV_file_outer_']/label</value>
+         <value>//div[@id='file-tambah-foto-tarian__BV_file_outer_']/label</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>file-small</value>
+      <value>file-tambah-foto-tarian</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;file-small__BV_file_outer_&quot;)/label[@class=&quot;custom-file-label&quot;]</value>
+      <value>id(&quot;file-tambah-foto-tarian__BV_file_outer_&quot;)/label[@class=&quot;custom-file-label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='file-small__BV_file_outer_']/label</value>
+      <value>//div[@id='file-tambah-foto-tarian__BV_file_outer_']/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

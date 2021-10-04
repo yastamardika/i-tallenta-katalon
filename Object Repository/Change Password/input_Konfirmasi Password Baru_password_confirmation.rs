@@ -6,12 +6,16 @@
    <elementGuidId>12b7f258-706c-4701-943f-728149564e5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='confirmation-password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#confirmation-password</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'confirmation-password']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='confirmation-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,14 +35,14 @@
       <value>confirmation-password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>password_confirmation</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

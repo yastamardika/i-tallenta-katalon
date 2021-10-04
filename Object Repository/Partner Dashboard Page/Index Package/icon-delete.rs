@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Rp. 3.500.000_el-icon-edit</name>
+   <name>icon-delete</name>
    <tag></tag>
-   <elementGuidId>9cd41256-c0f9-4d05-972f-7d5f5e728eef</elementGuidId>
+   <elementGuidId>2f5829e3-1411-4412-b566-9bada45cfa07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div[2]/div/div/div[2]/a/button/i</value>
+         <key>CSS</key>
+         <value>i.el-icon-delete</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div/div/div/div[2]/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,27 +28,27 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>el-icon-edit</value>
+      <value>el-icon-delete</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;dashboard&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 mb-3 col-sm-12 col-lg-4 col-12&quot;]/div[@class=&quot;card card-hover card-rounded w-100 h-100&quot;]/div[@class=&quot;card-body h-50&quot;]/div[@class=&quot;m-2 text-right&quot;]/a[1]/button[@class=&quot;el-button el-button--primary is-circle&quot;]/i[@class=&quot;el-icon-edit&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;dashboard&quot;]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 mb-3 col-sm-12 col-lg-4 col-12&quot;]/div[@class=&quot;card card-hover card-rounded w-100 h-100&quot;]/div[@class=&quot;card-body h-50&quot;]/div[@class=&quot;m-2 text-right&quot;]/button[@class=&quot;el-button el-button--danger is-circle&quot;]/i[@class=&quot;el-icon-delete&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div[2]/div/div/div[2]/a/button/i</value>
+      <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div/div/div/div[2]/button/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/a/button/i</value>
+      <value>//div[2]/button/i</value>
    </webElementXpaths>
 </WebElementEntity>

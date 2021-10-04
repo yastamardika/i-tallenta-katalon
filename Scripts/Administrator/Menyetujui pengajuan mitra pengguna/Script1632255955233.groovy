@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Administrator/Login admin'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Admin Dashboard Page/button_Admin Panel'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/span_Manajemen Pengguna'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/a_Calon Mitra Baru'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Index user/a_Detail Pengguna Customer 234 - Calon mitra'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Detail user page/button_Verifikasi'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_admin-verif-calon-mitra-dialog.png')
+
+WebUI.click(findTestObject('Admin Dashboard Page/Detail user page/a_Batal'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Detail user page/button_Verifikasi'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Detail user page/a_Yakin'))
+
+WebUI.delay(1)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_admin-verif-calon-mitra-success.png')
+
+WebUI.closeBrowser()
+

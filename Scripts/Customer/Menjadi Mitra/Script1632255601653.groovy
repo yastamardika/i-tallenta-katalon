@@ -17,29 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile Navbar/button_Bergabung Menjadi Mitra'))
 
-WebUI.setText(findTestObject('Partner Register Page/input_Nama Sanggar_input-nama-sanggar'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Nama Sanggar_input-nama-sanggar'), 'Sanggar muntilan')
 
-WebUI.setText(findTestObject('Partner Register Page/input_Nomor Handphone Sanggar_input-phone'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Nomor Handphone Sanggar_input-phone'), '084798274231')
 
-WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-address'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-address'), 'Jl. Pohrubuh No 5 Muntilan')
 
-WebUI.setText(findTestObject('Partner Register Page/textarea_Deskripsi Sanggar_textarea-description-sanggar'), '')
+WebUI.setText(findTestObject('Partner Register Page/textarea_Deskripsi Sanggar_textarea-description-sanggar'), 'Sanggar ini merupakan sanggar yang terintegrasi dengan peternakan dan usaha tani')
 
-WebUI.setText(findTestObject('Partner Register Page/input_Youtube video link_input-video_profile'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Youtube video link_input-video_profile'), 'https://youtu.be/2ei6yOpw5aE')
 
-WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-google_map_link'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-google_map_link'), 'https://goo.gl/maps/rhejAZcS6DXT8YDQA')
 
-WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-postal-code'), '')
+WebUI.setText(findTestObject('Partner Register Page/input_Alamat Sanggar_input-postal-code'), '56238')
 
-WebUI.uploadFile(findTestObject('Partner Register Page/label_No file chosen'), '')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Partner Register Page/label_No file chosen'), 'C:\\Users\\Yasha\\Pictures\\gambar sanggar\\pradita1.jpg')
 
-WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih Kota'), '', false)
+//WebUI.click(findTestObject('Partner Register Page/select_Pilih provinsi'))
+WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih provinsi'), 'Jawa Tengah', false)
 
-WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih provinsi'), '', false)
+WebUI.selectOptionByLabel(findTestObject('Partner Register Page/select_Pilih Kota'), 'Kabupaten Magelang', false)
 
-WebUI.click(findTestObject('Partner Register Page/button_Reset'))
+WebUI.click(findTestObject('Partner Register Page/button_Submit'))
 
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register-partner_dialog.png')
+
+WebUI.click(findTestObject('Partner Register Page/a_Batal'))
+
+WebUI.click(findTestObject('Partner Register Page/button_Submit'))
+
+WebUI.click(findTestObject('Partner Register Page/a_Terima'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_register-accepted.png')

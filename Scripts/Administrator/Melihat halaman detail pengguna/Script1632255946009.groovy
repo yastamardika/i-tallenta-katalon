@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Administrator/Login admin'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Admin Dashboard Page/button_Admin Panel'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/span_Manajemen Pengguna'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/a_Seluruh Pengguna'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Index user/button_3'))
+
+WebUI.click(findTestObject('Admin Dashboard Page/Index user/a_Detail Pengguna page 3'))
+
+WebUI.scrollToElement(findTestObject('Admin Dashboard Page/div_Copyright  2021        I-Tallenta. All rights reserved. Hand-crafted  made with'), 
+    0)
+
+WebUI.delay(4)
+
+WebUI.closeBrowser()
+

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Deskripsi Produk_textarea-large</name>
+   <name>input_Durasi_input-edit-durasi</name>
    <tag></tag>
-   <elementGuidId>802938ae-d3ef-40b3-bef5-6cd44f7e2d22</elementGuidId>
+   <elementGuidId>9f62aa2a-6e90-4072-95b6-a1f0ea40b6ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='textarea-large']</value>
+         <value>//input[@id='input-edit-durasi']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#textarea-large</value>
+         <value>#input-edit-durasi</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,14 +21,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>textarea-large</value>
+      <value>input-edit-durasi</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,20 +43,6 @@
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>10</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>wrap</name>
-      <type>Main</type>
-      <value>soft</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,34 +56,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control-lg</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;textarea-large&quot;)</value>
+      <value>id(&quot;input-edit-durasi&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='textarea-large']</value>
+      <value>//input[@id='input-edit-durasi']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__489']/div/textarea</value>
+      <value>//fieldset[@id='__BVID__92']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//div[2]/fieldset/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

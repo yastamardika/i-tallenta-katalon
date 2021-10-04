@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Contoh  httpsyoutu.behfkafoqI21EQ_input-sanggar-edit-postal</name>
+   <name>input_sanggar-edit-city</name>
    <tag></tag>
-   <elementGuidId>14518d54-c614-4c41-83ce-465df6c9f001</elementGuidId>
+   <elementGuidId>e77ec7b0-d07c-449e-955a-a2704b413958</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='input-sanggar-edit-postal']</value>
+         <value>//input[@id='input-sanggar-edit-city']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#input-sanggar-edit-postal</value>
+         <value>#input-sanggar-edit-city</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input-sanggar-edit-postal</value>
+      <value>input-sanggar-edit-city</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter sanggar postal_code</value>
+      <value>Enter sanggar city</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,27 +70,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;input-sanggar-edit-postal&quot;)</value>
+      <value>id(&quot;input-sanggar-edit-city&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='input-sanggar-edit-postal']</value>
+      <value>//input[@id='input-sanggar-edit-city']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div/div/form/div[6]/div[2]/input[3]</value>
+      <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div/div/form/div[6]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[3]</value>
+      <value>//div[6]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

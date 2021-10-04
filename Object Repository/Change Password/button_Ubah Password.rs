@@ -6,18 +6,26 @@
    <elementGuidId>43e01a51-e70a-4bf5-b059-e28702424c48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.profile-content > button.btn.btn-primary</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @autocomplete = 'off' and @class = 'btn btn-primary' and (text() = '
+                  Ubah Password
+                ' or . = '
+                  Ubah Password
+                ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +46,14 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

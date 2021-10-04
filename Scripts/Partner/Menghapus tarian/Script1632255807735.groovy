@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Partner Dashboard Page/button_Panel Mitra'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/span_Sanggar'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/a_Paket'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Package/icon-delete'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_menghapus-tarian-dialog.png')
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Package/a_Batal'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Package/icon-delete'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Package/a_Hapus'))
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_menghapus-data-tarian_succes.png')
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+

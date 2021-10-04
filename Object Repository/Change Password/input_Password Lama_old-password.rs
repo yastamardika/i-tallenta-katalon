@@ -6,15 +6,19 @@
    <elementGuidId>f7198a53-32a0-411a-8211-bb9acf856be7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='old-password'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>form.pt-3 > #old-password</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'old-password' and @type = 'password']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='old-password'])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

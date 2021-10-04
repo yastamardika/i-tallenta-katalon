@@ -10,8 +10,12 @@
          <value>#order-264 > div.row.justify-content-lg-between.row-cols-2.row-cols-sm-2.row-cols-md-2.row-cols-lg-3.row-cols-xl-3.no-gutters > div.my-auto.mx-auto.align-self-lg-center.col-sm-3.col-md-3.col-lg-3.col-xl-3 > a > img.rounded</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://res.cloudinary.com/i-tallenta/image/fetch/f_auto,q_auto,w_200,c_fill/https://res.cloudinary.com/i-tallenta/image/upload/v1625637585/sanggar/nl3hcbaedsi8fst3xbpo.jpg']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='order-264']/div/div/a/img</value>
+         <value>//div[@id='order-394']/div/div/a/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='order-264']/div/div/a/img</value>
+      <value>//div[@id='order-394']/div/div/a/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

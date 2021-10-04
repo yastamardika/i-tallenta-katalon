@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Partner Dashboard Page/button_Panel Mitra'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/span_Sanggar'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/a_Transaksi'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Order/button_2'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Index Order/a_Lihat Detail - 384'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Partner Dashboard Page/Detail Order/button_Tolak Pesanan'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_menolak-pesanan-dialog.png')
+
+WebUI.click(findTestObject('Partner Dashboard Page/Detail Order/a_Batal'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Detail Order/button_Tolak Pesanan'))
+
+WebUI.click(findTestObject('Partner Dashboard Page/Detail Order/a_Tolak'))
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_menolak-pesanan-success.png')
+
+WebUI.closeBrowser()
+

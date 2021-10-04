@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Contoh  httpsyoutu.behfkafoqI21EQ_input-sanggar-edit-google-map</name>
+   <name>input_Durasi_input-tambah-durasi_tarian</name>
    <tag></tag>
-   <elementGuidId>e380ad82-f5c5-4749-9fdf-3ba17117273b</elementGuidId>
+   <elementGuidId>327fbdb1-91e5-4977-b977-99febe47fdba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='input-sanggar-edit-google-map']</value>
+         <value>//input[@id='input-tambah-durasi_tarian']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#input-sanggar-edit-google-map</value>
+         <value>#input-tambah-durasi_tarian</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>input-sanggar-edit-google-map</value>
+      <value>input-tambah-durasi_tarian</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,13 +36,6 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Enter sanggar google map link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,34 +56,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mb-2 form-control</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;input-sanggar-edit-google-map&quot;)</value>
+      <value>id(&quot;input-tambah-durasi_tarian&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='input-sanggar-edit-google-map']</value>
+      <value>//input[@id='input-tambah-durasi_tarian']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/section/div[2]/div/div/div/form/div[6]/div[2]/input[4]</value>
+      <value>//fieldset[@id='__BVID__57']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[4]</value>
+      <value>//div[2]/fieldset/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

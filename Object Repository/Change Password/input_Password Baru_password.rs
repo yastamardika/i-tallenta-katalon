@@ -6,12 +6,16 @@
    <elementGuidId>df5d09d0-9c4b-4556-9478-3ea4b2edd772</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='new-password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#new-password</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'new-password' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='new-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +35,7 @@
       <value>new-password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

@@ -6,15 +6,22 @@
    <elementGuidId>4599f2eb-c076-46f6-a809-20a392aca515</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/dashboard/sanggar/products/' and (text() = '
+                Paket
+              ' or . = '
+                Paket
+              ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='sanggar']/ul/li[2]/a</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

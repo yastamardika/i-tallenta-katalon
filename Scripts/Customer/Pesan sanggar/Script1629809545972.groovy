@@ -17,11 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Guest/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Customer/Buka detail sanggar - Order'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Home Page_i-tallenta/a_Jelajah'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Search and Explore Page/img_Bantul_sanggarImage-74'))
 
-WebUI.callTestCase(findTestCase('Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Order Sanggar Page/p_Tari Sakura                   Rp. 4.000.000                        12 Menit                                      detail'))
+
+WebUI.click(findTestObject('Order Sanggar Page/button_Pesan Tarian Ini'))
+
+WebUI.click(findTestObject('Order Sanggar Page/Form order/p_gunakan identitas sesuai akun'))
+
+WebUI.sendKeys(findTestObject('Order Sanggar Page/Form order/input_Nomor HP Pemesan_nomorHPPemesan'), '0882279128371923')
+
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Alamat Pemesan_alamatPemesan'), 'Jl. Durian 15C ')
+
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Alamat Acara_AlamatAcaraPemesan'), 'Jl. Medika 16A')
+
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Lokasi  Nama Acara_LokasiAcaraPemesan'), 'Jogja international code festival')
+
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Kota Acara_KotaPemesan'), 'Sleman')
+
+WebUI.setText(findTestObject('Order Sanggar Page/Form order/input_Provinsi_ProvinsiPemesan'), 'Daerah Istimewa Yogyakarta')
+
+WebUI.click(findTestObject('Order Sanggar Page/Form order/button_Tanggal acara_TanggalPesan'))
+
+WebUI.click(findTestObject('Order Sanggar Page/Form order/span_8'))
+
+WebUI.click(findTestObject('Object Repository/Order Sanggar Page/Form order/button_Pesan dan Bayar'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_ordering_a_sanggar_success.png')
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Partner/Login mitra'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
 
@@ -37,11 +37,15 @@ WebUI.click(findTestObject('Change Password/button_Ubah'))
 
 WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_pass-baru-tak-valid.png')
 
+WebUI.clearText(findTestObject('Change Password/input_Password Baru_password'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setEncryptedText(findTestObject('Change Password/input_Password Baru_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
 
 WebUI.click(findTestObject('Change Password/button_Ubah'))
 
 WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_kombinasi-salah.png')
+
+WebUI.clearText(findTestObject('Change Password/input_Konfirmasi Password Baru_password_confirmation'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setEncryptedText(findTestObject('Change Password/input_Konfirmasi Password Baru_password_confirmation'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
 
@@ -49,7 +53,13 @@ WebUI.click(findTestObject('Change Password/button_Ubah'))
 
 WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_pass-lama-salah.png')
 
-WebUI.setEncryptedText(findTestObject('Change Password/input_Password Lama_old-password'), 'OgbrUcIZsoQToGN7Jc/4FA==')
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Lama_old-password'), 'U+k+KkGNzIZnQw0BJHfeBQ==')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Password Baru_password'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.setEncryptedText(findTestObject('Change Password/input_Konfirmasi Password Baru_password_confirmation'), 'U+k+KkGNzIbq2mZrBuLWYQ==')
+
+WebUI.click(findTestObject('Change Password/button_Ubah'))
 
 WebUI.takeScreenshot(GlobalVariable.SDirectory + 'mengubah_password_berhasil.png')
 

@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Customer/Login customer'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile Navbar/svg_Bergabung Menjadi Mitra_bi-person-fill _8f5b30'))
+
+WebUI.click(findTestObject('Profile Navbar/a_Pesanan Saya'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('History order page/a_2'))
+
+WebUI.click(findTestObject('Order Detail Page/item-order-processed_by_sanggar'))
+
+WebUI.click(findTestObject('Order Detail Page/button_Selesai'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_detail-order-prompt-dialog.png')
+
+WebUI.click(findTestObject('Order Detail Page/a_Selesai'))
+
+WebUI.takeScreenshot(GlobalVariable.SDirectory + 'test_detail-order-clicked.png')
+
+WebUI.delay(2)
+

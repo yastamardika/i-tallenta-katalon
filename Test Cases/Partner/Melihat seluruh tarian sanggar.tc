@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Melihat halaman seluruh tarian sanggar</name>
+   <name>Melihat seluruh tarian sanggar</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4b5ab0fb-cd70-4469-b7be-3b6d58c9dd91</testCaseGuid>

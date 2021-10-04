@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Harga_form-control</name>
+   <name>div_Copyright  2021        I-Tallenta. All rights reserved. Hand-crafted  made with</name>
    <tag></tag>
-   <elementGuidId>6ba75edc-743f-4fdd-a010-563aaa97a75e</elementGuidId>
+   <elementGuidId>87eded26-d2cb-4392-9dd8-4b9f2a5d93ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='tel']</value>
+         <value>//div[@id='app']/div/div/div/section/footer/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#__BVID__483 > div > input.form-control</value>
+         <value>div.container-fluid.clearfix</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Masukan harga paket</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>tel</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>required</name>
-      <type>Main</type>
-      <value>required</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>container-fluid clearfix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copyright © 2021
+        I-Tallenta. All rights reserved. Hand-crafted &amp; made with </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__483&quot;)/div[1]/input[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/section[@class=&quot;app-footer&quot;]/footer[@class=&quot;footer&quot;]/div[@class=&quot;container-fluid clearfix&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@type='tel']</value>
+      <value>//div[@id='app']/div/div/div/section/footer/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__483']/div/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Tickets'])[1]/following::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/fieldset/div/input</value>
+      <value>//footer/div</value>
    </webElementXpaths>
 </WebElementEntity>

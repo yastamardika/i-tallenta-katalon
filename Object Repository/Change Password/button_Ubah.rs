@@ -6,15 +6,23 @@
    <elementGuidId>88a48301-cf37-4cd5-ab65-1ccb9dca9d21</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='submit'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.rounded-0</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @class = 'btn btn-primary rounded-0' and (text() = '
+                      Ubah
+                    ' or . = '
+                      Ubah
+                    ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +39,7 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
